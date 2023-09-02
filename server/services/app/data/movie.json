@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Cloudy with a Chance of Meatballs",
+    "synopsis": "Flint Lockwood, an inventor who is considered a nuisance, puts his latest invention to work when his town faces an economic crisis. His invention makes him popular until it spirals out of control.",
+    "trailerUrl": "https://www.youtube.com/embed/pUaKcFI4BZY",
+    "imgUrl": "https://www.movienewsletters.net/photos/057700R1.jpg",
+    "rating": 7,
+    "genreId": 3,
+    "authorId": 1
+  },
+  {
+    "title": "Oppenheimer",
+    "synopsis": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
+    "trailerUrl": "https://www.youtube.com/embed/uYPbbksJxIg",
+    "imgUrl": "https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900",
+    "rating": 9,
+    "genreId": 1,
+    "authorId": 1
+  },
+  {
+    "title": "Spider-Man: Across the Spider-Verse",
+    "synopsis": "Miles Morales embarks on a thrilling adventure through the multiverse and joins forces with Gwen Stacy and Spider-People to fight a supervillain.",
+    "trailerUrl": "https://www.youtube.com/embed/shW9i6k8cB0",
+    "imgUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFHMCMi3SM6HVf0M-Ua0zLlXgBvdsyTT8JL47mVS58uxEaEPse",
+    "rating": 9,
+    "genreId": 4,
+    "authorId": 1
+  }
+]

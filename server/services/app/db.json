@@ -1,0 +1,170 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "admin1",
+      "email": "admin1@admin.com",
+      "password": "tes12",
+      "role": "Admin",
+      "phoneNumber": "+62 207 537 7460",
+      "address": "028 Buena Vista Center"
+    },
+    {
+      "id": 2,
+      "username": "admin2",
+      "email": "admin2@admin.com",
+      "password": "tes22",
+      "role": "Admin",
+      "phoneNumber": "+622 216 603 8066",
+      "address": "9 Burrows Plaza"
+    },
+    {
+      "username": "tes",
+      "email": "admin3@admin.com",
+      "password": "tes32",
+      "role": "admin",
+      "phoneNumber": "+62 5461 2154 6885",
+      "address": "Jl. komang Kaming",
+      "id": 3
+    }
+  ],
+  "Movies": [
+    {
+      "title": "Cloudy with a Chance of Meatballs",
+      "slug": "cloudy-with a chance of meatballs",
+      "synopsis": "Flint Lockwood, an inventor who is considered a nuisance, puts his latest invention to work when his town faces an economic crisis. His invention makes him popular until it spirals out of control.",
+      "trailerUrl": "https://www.youtube.com/watch?v=pUaKcFI4BZY",
+      "imgUrl": "https://www.movienewsletters.net/photos/057700R1.jpg",
+      "rating": "7",
+      "genreId": "3",
+      "authorId": "1",
+      "createdAt": "2023-08-09T05:44:24.581Z",
+      "updatedAt": "2023-08-09T05:44:24.581Z",
+      "id": 1
+    },
+    {
+      "title": "Oppenheimer",
+      "slug": "oppenheimer",
+      "synopsis": "During World War II, Lt. Gen. Leslie Groves Jr. appoints physicist J. Robert Oppenheimer to work on the top-secret Manhattan Project. Oppenheimer and a team of scientists spend years developing and designing the atomic bomb. Their work comes to fruition on July 16, 1945, as they witness the world's first nuclear explosion, forever changing the course of history.",
+      "trailerUrl": "https://www.youtube.com/watch?v=uYPbbksJxIg",
+      "imgUrl": "https://pbs.twimg.com/media/FvUVt3hXgAAxP1H?format=jpg&name=900x900",
+      "rating": "9",
+      "genreId": 1,
+      "authorId": "1",
+      "createdAt": "2023-08-09T05:52:36.254Z",
+      "updatedAt": "2023-08-09T05:52:36.254Z",
+      "id": 2
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "slug": "spider-man:-across the spider-verse",
+      "synopsis": "Miles Morales embarks on a thrilling adventure through the multiverse and joins forces with Gwen Stacy and Spider-People to fight a supervillain.",
+      "trailerUrl": "https://www.youtube.com/watch?v=shW9i6k8cB0",
+      "imgUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQFHMCMi3SM6HVf0M-Ua0zLlXgBvdsyTT8JL47mVS58uxEaEPse",
+      "rating": "9",
+      "genreId": "4",
+      "authorId": "1",
+      "id": 3,
+      "createdAt": "2023-08-09T05:53:29.420Z",
+      "updatedAt": "2023-08-09T05:53:37.333Z"
+    }
+  ],
+  "genre": [
+    {
+      "name": "Drama",
+      "createdAt": "2023-08-09T05:39:39.924Z",
+      "updatedAt": "2023-08-09T05:39:39.924Z",
+      "id": 1
+    },
+    {
+      "name": "History",
+      "createdAt": "2023-08-09T05:40:17.884Z",
+      "updatedAt": "2023-08-09T05:40:17.884Z",
+      "id": 2
+    },
+    {
+      "name": "Comedy",
+      "createdAt": "2023-08-09T05:40:22.848Z",
+      "updatedAt": "2023-08-09T05:40:22.848Z",
+      "id": 3
+    },
+    {
+      "name": "Action",
+      "createdAt": "2023-08-09T05:40:29.223Z",
+      "updatedAt": "2023-08-09T05:40:29.223Z",
+      "id": 4
+    },
+    {
+      "name": "para",
+      "id": 5,
+      "createdAt": "2023-08-10T05:05:12.641Z",
+      "updatedAt": "2023-08-10T05:05:20.913Z"
+    }
+  ],
+  "cast": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "name": "Bill Hader",
+      "profilePict": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTfO0WDT3340nhtKkDz6JOU-ZwBl3nY75BCHd1v5TSsOxDCtQqcgbjzkcIjvLZvSXuj2mETWbNjVQac-pw",
+      "createdAt": "2023-05-07 11:46:26",
+      "updatedAt": "2023-03-11 23:56:18"
+    },
+    {
+      "id": 2,
+      "movieId": 1,
+      "name": "Anna Faris",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRSuB9H6jZp9qF7lXnNQqADI1jToV6NU9Od6oVtVMs6lQfElvGQayh71LvRYQZK2Zznztk8u0fE4kMzLgc",
+      "createdAt": "2022-08-13 08:53:21",
+      "updatedAt": "2023-03-02 23:17:01"
+    },
+    {
+      "id": 3,
+      "movieId": 1,
+      "name": "Andy Samberg",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQYtHe1IflL-ZGkSw4JXpRW0m6ykv6dwieN7GPyFn15yhJB86rSTXy2AwbzkRScHeaxjmM63dq01TluE-o",
+      "createdAt": "2023-04-19 04:31:27",
+      "updatedAt": "2022-09-23 13:36:35"
+    },
+    {
+      "id": 4,
+      "movieId": 1,
+      "name": "Neil Patrick Harris",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcRH3jjLP5hYepWj0uY3_eAcDkdsdsdLH0fIQIn9sFGFecq1KrW-qj_MSUXb32QYLelN4zlBg1LmhZIJQdI",
+      "createdAt": "2023-08-05 17:54:17",
+      "updatedAt": "2023-03-15 04:36:05"
+    },
+    {
+      "id": 5,
+      "movieId": 2,
+      "name": "Cillian Murphy",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZIuXgDofNrOab8XnYOJ6ge3aFm1BEKitpuFPdgSdSgV49UE91EySMXgBwtS6xJBY-LoiS8OS0ziOzDY0",
+      "createdAt": "2023-03-28 19:46:57",
+      "updatedAt": "2022-11-22 01:39:36"
+    },
+    {
+      "id": 6,
+      "movieId": 2,
+      "name": "Florence Pugh",
+      "profilePict": "https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcRoY3Eg9iFRp3gumtaIyq7pTukLBehjSctQJ5yMRWh98MGPnmjfw59fNLltsqnQ1Ki7p8JWyWeRuxO6DE0",
+      "createdAt": "2023-04-19 13:48:05",
+      "updatedAt": "2022-12-03 07:50:06"
+    },
+    {
+      "id": 7,
+      "movieId": 2,
+      "name": "Robert Downey Jr.",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQKYAUWeYWBCdny8x_iGHRKSB_dQ68R9QX0d40f2Cc0jWk0GW0IpQWgn2zrOfOP5R9pIrEFjvCl35ENEqc",
+      "createdAt": "2022-09-18 17:49:03",
+      "updatedAt": "2023-06-07 02:06:00"
+    },
+    {
+      "id": 8,
+      "movieId": 2,
+      "name": "Emily Blunt",
+      "profilePict": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcQZPZapcMf8t8p2DxKY83L21gKqfUKIiBv2bWrGbDxErk8K_lknMg3HlL_yWLOyE81mUhTuEqfhY_ey7mk",
+      "createdAt": "2022-08-23 23:31:19",
+      "updatedAt": "2022-08-25 23:44:33"
+    }
+  ]
+}

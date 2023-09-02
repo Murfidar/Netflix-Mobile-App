@@ -1,0 +1,26 @@
+[
+    {
+      "username": "admin1",
+      "email": "admin1@admin.com",
+      "password": "tes12",
+      "role": "Admin",
+      "phoneNumber": "+62 207 537 7460",
+      "address": "028 Buena Vista Center"
+    },
+    {
+      "username": "admin2",
+      "email": "admin2@admin.com",
+      "password": "tes22",
+      "role": "Admin",
+      "phoneNumber": "+622 216 603 8066",
+      "address": "9 Burrows Plaza"
+    },
+    {
+      "username": "tes",
+      "email": "admin3@admin.com",
+      "password": "tes32",
+      "role": "admin",
+      "phoneNumber": "+62 5461 2154 6885",
+      "address": "Jl. komang Kaming"
+    }
+  ]
